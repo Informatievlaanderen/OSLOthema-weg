@@ -1,0 +1,25 @@
+[
+  {
+    "name": "wegenregister",
+    "type": "ap",
+    "eap": "OSLO-Wegenregister-impl",
+    "diagram": "Wegenregister_implementatiemodel",
+    "template": "wegenregister-markdown-ap.j2",
+    "title": "Wegenregister",
+    "license" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
+    "publication-date": "2022-06-21",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "site": "site-skeleton/wegenregister",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-weg/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-wegenregister/",
+    "dependencies": [
+      {
+        "package": "OSLO-Generiek",
+        "packagelabel": "Appplicatieprofiel Generiek-basis",
+        "packageurl": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+      }
+    ]
+  }
+]
