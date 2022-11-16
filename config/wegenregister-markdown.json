@@ -2,7 +2,7 @@
   {
     "name": "wegenregister",
     "type": "ap",
-    "eap": "OSLO-Wegenregister-impl",
+    "eap": "OSLO-Wegenregister-impl.eap",
     "diagram": "Wegenregister_implementatiemodel",
     "template": "wegenregister-markdown-ap.j2",
     "title": "Wegenregister",
