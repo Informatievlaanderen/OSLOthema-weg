@@ -8,7 +8,7 @@
     "title": "Wegenregister",
     "license" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
-    "publication-date": "2022-06-21",
+    "publication-date": "2022-12-02",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Weg",
     "site": "site-skeleton/wegenregister",
