@@ -152,30 +152,6 @@ Voor dit datatype zijn geen eigenschappen gedefinieerd.
 {% endif %}
 {% endblock %}
 
-## JSON-LD context {{'{#jsonld}'}}
-{% block jsonld %}
-Een algemene JSON-LD context definitie voor dit implementatiemodel is terug te vinden op:
-[/assets/oslo{{ documentroot }}/context/{{ metadata.filename }}.jsonld](/assets/oslo{{ documentroot }}/context/{{ metadata.filename }}.jsonld)
-
-De json-ld context definities gebruikt in het basisregister API endpoint zijn
-
-**Gemeente:**
-- [gemeenten_detail.jsonld][]
-- [gemeenten_list.jsonld][]
-
-**Straatnaam:**
-- [straatnamen_detail.jsonld][]
-- [straatnamen_list.jsonld][]
-
-{% endblock %}
-
-## SHACL template {{'{#shacl}'}}
-(niet normatief)
-{% block shacl%}
-Een herbruikbare SHAreferentiegeometrieCL template definitie voor dit implementatiemodel is terug te vinden op:
-[/assets/oslo/{{ documentroot }}/shacl/{{ metadata.filename }}-SHACL.ttl](/assets/oslo/{{ documentroot }}/shacl/{{ metadata.filename }}-SHACL.ttl)
-{% endblock %}
-
 <!-- URLS -->
 [Licentie]:https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
 [Digitaal Vlaanderen]:http://vlaanderen.be/informatievlaanderen
