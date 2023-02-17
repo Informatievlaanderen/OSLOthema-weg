@@ -3,7 +3,7 @@
     "name": "wegenregister",
     "type": "ap",
     "eap": "OSLO-Weg.eap",
-    "diagram": "OSLO-Weg",
+    "diagram": "OSLO-Weg_implementatiemodel",
     "template": "wegenregister-markdown-ap.j2",
     "title": "Wegenregister",
     "license" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
