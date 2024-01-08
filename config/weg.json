@@ -1,0 +1,16 @@
+[
+  {
+    "name": "weg",
+    "type": "voc",
+    "eap": "OSLO-Weg.eap",
+    "diagram": "OSLO-Weg",
+    "template": "weg-voc.j2",
+    "title": "Weg",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "publication-date": "2018-11-27",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-wegen/vocabularium-wegen.html"
+  }
+]

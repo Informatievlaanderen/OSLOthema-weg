@@ -1,0 +1,17 @@
+[
+  {
+    "name": "wegenregister",
+    "type": "ap",
+    "eap": "OSLO-Weg.eap",
+    "diagram": "Wegenregister_applicatieprofiel",
+    "template": "wegenregister-ap.j2",
+    "title": "Wegenregister",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
+    "publication-date": "2018-10-04",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "site": "site-skeleton/wegenregister",
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+    "standaardregisterurl": "https://data.test-vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-wegenregister/"
+  }
+]
