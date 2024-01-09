@@ -241,7 +241,8 @@
             <div class="region region--no-space-top">
 	      {% block images %}
                      <a href="{{ documentroot }}/html/overview.svg" target="_blank">
-                 <img src="{{ documentroot }}/html/overview.svg" />
+                      <object type="image/svg+xml" data="{{ documentroot }}/html/overview.svg"></object>
+                 {% comment %} <img src="{{ documentroot }}/html/overview.svg" /> {% endcomment %}
               </a>
               {% endblock %}
             </div>
