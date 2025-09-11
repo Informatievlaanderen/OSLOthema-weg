@@ -1,0 +1,92 @@
+{
+    "@context": [],
+    "@graph": [
+        {
+            "@id": "https://data.vlaanderen.be/id/wegsegment/594839",
+            "@type": "Wegsegment",
+            "Link.geometriemiddenlijn": {
+                "@type": "Geometrie",
+                "Geometrie.gml": {
+                    "@value": "<gml:MultiLineString srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates> 124957.81000000238 193012.37500000373 124995.33600000292 193126.06300000474 125005.23244000226 193153.86770000309 125052.41500000656 193335.04900000617 125061.33900000155 193365.10800000280</gml:coordinates><gml:Point>",
+                    "@type": "geosparql:gmlliteral"
+                },
+                "Geometrie.methode": {
+                    "@type": "Opmeting",
+                    "Opmeting.methode": "https://example.com/opmetingmethode/ingemeten"
+                }
+            },
+            "Wegsegment.begin": "https://data.vlaanderen.be/id/wegknoop/1189678",
+            "Wegsegment.einde": "https://data.vlaanderen.be/id/wegknoop/1485374",
+            "Netwerkelement.referentie": [
+                {
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@id": "https://data.vlaanderen.be/id/straatnaam/64711",
+                        "@type": "Straatnaam",
+                        "Straatnaam.straatnaam": {
+                            "@value": "Kamershoek",
+                            "@language": "nl"
+                        },
+                        "Straatnaam.isToegekendDoor": "https://data.vlaanderen.be/id/gemeente/42003"
+                    },
+                    "Linkreferentie.toepassingsrichting": "https://example.com/concept/toepassingsrichting/links"
+                },
+                {
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@id": "https://data.vlaanderen.be/id/straatnaam/66624",
+                        "@type": "Straatnaam",
+                        "Straatnaam.straatnaam": {
+                            "@value": "Kamershoek",
+                            "@language": "nl"
+                        },
+                        "Straatnaam.isToegekendDoor": "https://data.vlaanderen.be/id/gemeente/42028"
+                    },
+                    "Linkreferentie.toepassingsrichting": "https://example.com/concept/toepassingsrichting/rechts"
+                },
+                {
+                    "@type": "Netwerkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@type": "Wegbeheerder",
+                        "Wegbeheerder.autoriteit": {
+                            "@id": "https://wegwijs.vlaanderen.be/#/organisations/e644ca4e-20b3-407f-86ac-912b496bf1ca/info",
+                            "@type": "Organisatie",
+                            "Organisatie.voorkeursnaam": {
+                                "@value": "Gemeente Zele",
+                                "@language": "nl"
+                            }
+                        }
+                    }
+                },
+                {
+                    "@type": "Netwerkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@type": "Status",
+                        "Morfologie.klasse": "https://example.com/concept/status/gerealiseerd"
+                    }
+                },
+                {
+                    "@type": "Netwerkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@type": "Morfologie",
+                        "Morfologie.klasse": "https://example.com/concept/morfologie/weg_bestaande_uit_een_rijbaan"
+                    }
+                },
+                {
+                    "@type": "Netwerkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@type": "Wegcategorie",
+                        "Morfologie.klasse": "https://example.com/concept/wegcategorie/erftoegangsweg"
+                    }
+                },
+                {
+                    "@type": "Netwerkreferentie",
+                    "Netwerkreferentie.eigenschap": {
+                        "@type": "Wegverharding",
+                        "Wegverharding.": "https://example.com/concept/wegverharding/verhard"
+                    }
+                }
+            ]
+        }
+    ]
+}

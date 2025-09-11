@@ -1,0 +1,98 @@
+{
+    "identificator": {
+        "id": "https://data.vlaanderen.be/id/wegsegment/635634",
+        "naamruimte": "https://data.vlaanderen.be/id/wegsegment",
+        "objectId": "635634",
+        "versieId": "2025-05-16T22:11:02Z",
+        "versieNummer": 2
+    },
+    "middellijnGeometrie": {
+        "coordinates": [
+            [
+                [
+                    125061.33900000151,
+                    193365.10799999911
+                ],
+                [
+                    125064.75800000130,
+                    193379.59499999881
+                ],
+                [
+                    125066.94399999830,
+                    193387.88399999961
+                ],
+                [
+                    125068.76299999650,
+                    193399.20199999961
+                ],
+                [
+                    125069.23399999741,
+                    193407.90700000149
+                ],
+                [
+                    125069.50800000130,
+                    193414.18800000101
+                ],
+                [
+                    125069.14100000259,
+                    193419.48499999940
+                ],
+                [
+                    125068.54699999841,
+                    193425.09499999881
+                ],
+                [
+                    125066.48399999741,
+                    193436.07899999991
+                ],
+                [
+                    125063.42400000240,
+                    193449.03400000179
+                ]
+            ]
+        ],
+        "type": "MultiLineString"
+    },
+    "methodeWegsegmentgeometrie": "ingemeten",
+    "beginknoopObjectId": 1189678,
+    "eindknoopObjectId": 1485374,
+    "linkerstraatnaam": {
+        "objectId": "https://data.vlaanderen.be/id/straatnaam/64711",
+        "straatnaam": "Kamershoek"
+    },
+    "rechterstraatnaam": {
+        "objectId": "https://data.vlaanderen.be/id/straatnaam/66624",
+        "straatnaam": "Kamershoek"
+    },
+    "wegsegmentstatus": "in gebruik",
+    "morfologischeWegklasse": "weg bestaande uit één rijbaan",
+    "toegangsbeperking": "openbare weg",
+    "wegbeheerder": "42028",
+    "wegcategorie": "lokale erftoegangsweg",
+    "wegverharding": [
+        {
+            "vanPositie": 0.0,
+            "totPositie": 85.364,
+            "verharding": "weg met vaste verharding"
+        }
+    ],
+    "wegbreedte": [
+        {
+            "vanPositie": 0.0,
+            "totPositie": 85.364,
+            "breedte": 6
+        }
+    ],
+    "aantalRijstroken": [
+        {
+            "vanPositie": 0.0,
+            "totPositie": 85.364,
+            "aantal": 2,
+            "richting": "onafhankelijk van de digitalisatiezin"
+        }
+    ],
+    "europeseWegen": [],
+    "nationaleWegen": [],
+    "genummerdeWegen": [],
+    "verwijderd": false
+}
