@@ -7,7 +7,7 @@
             "Link.geometriemiddenlijn": {
                 "@type": "Geometrie",
                 "Geometrie.gml": {
-                    "@value": "<gml:MultiLineString srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates> 124957.81000000238 193012.37500000373 124995.33600000292 193126.06300000474 125005.23244000226 193153.86770000309 125052.41500000656 193335.04900000617 125061.33900000155 193365.10800000280</gml:coordinates><gml:Point>",
+                    "@value": "<gml:MultiLineString srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates> 124957.81000000238 193012.37500000373 124995.33600000292 193126.06300000474 125005.23244000226 193153.86770000309 125052.41500000656 193335.04900000617 125061.33900000155 193365.10800000280</gml:coordinates><gml:MultiLineString>",
                     "@type": "geosparql:gmlliteral"
                 },
                 "Geometrie.methode": {
@@ -89,4 +89,5 @@
             ]
         }
     ]
+
 }
