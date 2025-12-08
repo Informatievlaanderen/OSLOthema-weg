@@ -13,13 +13,27 @@
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-weg/"
   },
-    {
+  {
     "name": "transportnetwerk",
     "type": "voc",
     "eap": "OSLO-Weg2.eap",
     "diagram": "OSLO-Transportnetwerk",
     "template": "transportnetwerk-voc.j2",
     "title": "Transportnetwerk",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "publication-date": "2026-01-01",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-weg/"
+  },
+  {
+    "name": "weg",
+    "type": "voc",
+    "eap": "OSLO-Weg2.eap",
+    "diagram": "OSLO-Weg",
+    "template": "transportnetwerk-voc.j2",
+    "title": "Weg",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
     "publication-date": "2026-01-01",
     "contributors-file": "stakeholders.csv",
