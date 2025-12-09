@@ -34,11 +34,26 @@
     "diagram": "OSLO-Weg",
     "template": "transportnetwerk-voc.j2",
     "title": "Weg",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
     "publication-date": "2026-01-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Weg",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-weg/"
+  },
+  {
+    "name": "wegennetwerk",
+    "type": "ap",
+    "eap": "OSLO-Weg2.eap",
+    "diagram": "OSLO-Wegennetwerk",
+    "template": "wegenregister-ap.j2",
+    "title": "Wegennetwerk",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
+    "publication-date": "2026-01-01",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "site": "site-skeleton/wegennetwerk",
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-wegenregister/"
   }
 ]
