@@ -8,7 +8,7 @@
     "title": "Netwerk",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
     "publication-date": "2026-01-01",
-    "contributors-file": "stakeholders.csv",
+    "contributors-file": "stakeholders2.csv",
     "contributors-column": "Weg",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-weg/"
@@ -22,7 +22,7 @@
     "title": "Transportnetwerk",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
     "publication-date": "2026-01-01",
-    "contributors-file": "stakeholders.csv",
+    "contributors-file": "stakeholders2.csv",
     "contributors-column": "Weg",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-weg/"
@@ -36,7 +36,7 @@
     "title": "Weg",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
     "publication-date": "2026-01-01",
-    "contributors-file": "stakeholders.csv",
+    "contributors-file": "stakeholders2.csv",
     "contributors-column": "Weg",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-weg/"
@@ -50,7 +50,7 @@
     "title": "Wegennetwerk",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
     "publication-date": "2026-01-01",
-    "contributors-file": "stakeholders.csv",
+    "contributors-file": "stakeholders2.csv",
     "contributors-column": "Weg",
     "site": "site-skeleton/wegennetwerk",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
