@@ -1,23 +1,65 @@
 {
-    "@context": [],
+    "@context": [
+        "https://data.test-vlaanderen.be/doc/applicatieprofiel/wegennetwerk/ontwerpstandaard/2026-01-01/context/wegennetwerk.jsonld",
+        {
+            "skos": "http://www.w3.org/2004/02/skos/core#"
+        }
+    ],
     "@graph": [
         {
             "@id": "https://data.vlaanderen.be/id/wegsegment/594839",
             "@type": "Wegsegment",
-            "Link.geometriemiddenlijn": {
-                "@type": "Geometrie",
-                "Geometrie.gml": {
-                    "@value": "<gml:MultiLineString srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates> 124957.81000000238 193012.37500000373 124995.33600000292 193126.06300000474 125005.23244000226 193153.86770000309 125052.41500000656 193335.04900000617 125061.33900000155 193365.10800000280</gml:coordinates><gml:MultiLineString>",
-                    "@type": "geosparql:gmlliteral"
-                },
-                "Geometrie.methode": {
-                    "@type": "Opmeting",
-                    "Opmeting.methode": "https://example.com/opmetingmethode/ingemeten"
+            "Transportlink.inNetwerk": {
+                "@type": "Transportnetwerk",
+                "Transportnetwerk.type": {
+                    "@id": "https://example.com/concept/transporttype/weg",
+                    "@type": "skos:Concept"
                 }
             },
-            "Wegsegment.begin": "https://data.vlaanderen.be/id/wegknoop/1189678",
-            "Wegsegment.einde": "https://data.vlaanderen.be/id/wegknoop/1485374",
-            "Netwerkelement.referentie": [
+            "Transportlink.geometriemiddenlijn": {
+                "@type": "Curve",
+                "Geometrie.gml": {
+                    "@value": "<gml:MultiLineString srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates> 124957.81000000238 193012.37500000373 124995.33600000292 193126.06300000474 125005.23244000226 193153.86770000309 125052.41500000656 193335.04900000617 125061.33900000155 193365.10800000280</gml:coordinates><gml:MultilineString>",
+                    "@type": "geosparql:gmlliteral"
+                }
+            },
+            "Transportlink.beginknoop": {
+                "@id": "https://data.vlaanderen.be/id/wegknoop/1189678",
+                "@type": "Wegknoop",
+                "Transportknoop.geometrie": {
+                    "@type": "Punt"
+                },
+                "Wegknoop.type": {
+                    "@id": "https://example.com/concept/wegknooptype/kruising",
+                    "@type": "skos:Concept"
+                },
+                "Transportknoop.inNetwerk": {
+                    "@type": "Transportnetwerk",
+                    "Transportnetwerk.type": {
+                        "@id": "https://example.com/concept/transporttype/weg",
+                        "@type": "skos:Concept"
+                    }
+                }
+            },
+            "Transportlink.eindknoop": {
+                "@id": "https://data.vlaanderen.be/id/wegknoop/1485374",
+                "@type": "Wegknoop",
+                "Transportknoop.geometrie": {
+                    "@type": "Punt"
+                },
+                "Wegknoop.type": {
+                    "@id": "https://example.com/concept/wegknooptype/kruising",
+                    "@type": "skos:Concept"
+                },
+                "Transportknoop.inNetwerk": {
+                    "@type": "Transportnetwerk",
+                    "Transportnetwerk.type": {
+                        "@id": "https://example.com/concept/transporttype/weg",
+                        "@type": "skos:Concept"
+                    }
+                }
+            },
+            "Transportlink.referentie": [
                 {
                     "@type": "Linkreferentie",
                     "Netwerkreferentie.eigenschap": {
@@ -27,9 +69,15 @@
                             "@value": "Kamershoek",
                             "@language": "nl"
                         },
-                        "Straatnaam.isToegekendDoor": "https://data.vlaanderen.be/id/gemeente/42003"
+                        "Straatnaam.isToegekendDoor": {
+                            "@id": "https://data.vlaanderen.be/id/gemeente/42003",
+                            "@type": "Gemeente"
+                        }
                     },
-                    "Linkreferentie.toepassingsrichting": "https://example.com/concept/toepassingsrichting/links"
+                    "Linkreferentie.toepassingsrichting": {
+                        "@id": "https://example.com/concept/toepassingsrichting/links",
+                        "@type": "skos:Concept"
+                    }
                 },
                 {
                     "@type": "Linkreferentie",
@@ -40,15 +88,21 @@
                             "@value": "Kamershoek",
                             "@language": "nl"
                         },
-                        "Straatnaam.isToegekendDoor": "https://data.vlaanderen.be/id/gemeente/42028"
+                        "Straatnaam.isToegekendDoor": {
+                            "@id": "https://data.vlaanderen.be/id/gemeente/42028",
+                            "@type": "Gemeente"
+                        }
                     },
-                    "Linkreferentie.toepassingsrichting": "https://example.com/concept/toepassingsrichting/rechts"
+                    "Linkreferentie.toepassingsrichting": {
+                        "@id": "https://example.com/concept/toepassingsrichting/rechts",
+                        "@type": "skos:Concept"
+                    }
                 },
                 {
                     "@type": "Netwerkreferentie",
                     "Netwerkreferentie.eigenschap": {
-                        "@type": "Wegbeheerder",
-                        "Wegbeheerder.autoriteit": {
+                        "@type": "Beheerder",
+                        "Beheerder.autoriteit": {
                             "@id": "https://wegwijs.vlaanderen.be/#/organisations/e644ca4e-20b3-407f-86ac-912b496bf1ca/info",
                             "@type": "Organisatie",
                             "Organisatie.voorkeursnaam": {
@@ -61,33 +115,44 @@
                 {
                     "@type": "Netwerkreferentie",
                     "Netwerkreferentie.eigenschap": {
-                        "@type": "Status",
-                        "Morfologie.klasse": "https://example.com/concept/status/gerealiseerd"
+                        "@type": "Toestand",
+                        "Toestand.huidigeToestand": {
+                            "@id": "https://example.com/concept/toestand/gerealiseerd",
+                            "@type": "skos:Concept"
+                        }
                     }
                 },
                 {
                     "@type": "Netwerkreferentie",
                     "Netwerkreferentie.eigenschap": {
-                        "@type": "Morfologie",
-                        "Morfologie.klasse": "https://example.com/concept/morfologie/weg_bestaande_uit_een_rijbaan"
+                        "@type": "MorfologischeWegklasse",
+                        "MorfologischeWegklasse.klasse": {
+                            "@id": "https://example.com/concept/morfologische_wegklasse/weg_bestaande_uit_een_rijbaan",
+                            "@type": "skos:Concept"
+                        }
                     }
                 },
                 {
                     "@type": "Netwerkreferentie",
                     "Netwerkreferentie.eigenschap": {
                         "@type": "Wegcategorie",
-                        "Morfologie.klasse": "https://example.com/concept/wegcategorie/erftoegangsweg"
+                        "Wegcategorie.categorie": {
+                            "@id": "https://example.com/concept/wegcategorie/erftoegangsweg",
+                            "@type": "skos:Concept"
+                        }
                     }
                 },
                 {
                     "@type": "Netwerkreferentie",
                     "Netwerkreferentie.eigenschap": {
                         "@type": "Wegverharding",
-                        "Wegverharding.": "https://example.com/concept/wegverharding/verhard"
+                        "Wegverharding.wegverharding": {
+                            "@id": "https://example.com/concept/wegverharding/verhard",
+                            "@type": "skos:Concept"
+                        }
                     }
                 }
             ]
         }
     ]
-
 }
