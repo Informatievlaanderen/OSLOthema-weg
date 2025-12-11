@@ -12,6 +12,63 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://data.vlaanderen.be/ns/adres#Straatnaam> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Toegang> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/netwerk#Connectie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Beheerder> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Eigenaar> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#VerticaleLigging> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Toestand> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Restrictie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkgebied> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#TransportObject> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#TransportObject> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Knoop> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlink> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlink> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#TransportObject> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlink> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Link> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlink> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#GeneriekeLink> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#TransportObject> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#GeneriekeLink> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Linksequentie> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#TransportObject> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Linkset> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportpunt> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkelement> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportpunt> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#TransportObject> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Afstandspaal> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportpunt> .
+<https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerk> .
+<http://www.w3.org/ns/person#Person> a owl:Class; rdfs:subClassOf <http://purl.org/dc/terms/Agent> .
+<https://data.vlaanderen.be/ns/weg#Weg> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset> .
+<https://data.vlaanderen.be/ns/weg#EuropeseWeg> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset> .
+<https://data.vlaanderen.be/ns/weg#Weglinksequentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie> .
+<https://data.vlaanderen.be/ns/weg#Wegsegment> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportlink> .
+<https://data.vlaanderen.be/ns/weg#Wegknoop> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop> .
+<https://data.vlaanderen.be/ns/weg#Weggebied> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied> .
+<https://data.vlaanderen.be/ns/weg#Verkeerszone> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied> .
+<https://data.vlaanderen.be/ns/weg#Servicezone> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied> .
+<https://data.vlaanderen.be/ns/weg#Wegcategorie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#MorfologischeWegklasse> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#Wegbreedte> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#Snelheidsbeperking> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#AantalRijstroken> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#Service> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#Wegnaam> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<https://data.vlaanderen.be/ns/weg#Wegverharding> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap> .
+<http://www.w3.org/ns/org#Organization> a owl:Class; rdfs:subClassOf <http://purl.org/dc/terms/Agent> .
+<http://www.opengis.net/ont/sf#Curve> a owl:Class; rdfs:subClassOf <http://www.w3.org/ns/locn#Geometry> .
+<http://www.opengis.net/ont/geosparql#Surface> a owl:Class; rdfs:subClassOf <http://www.w3.org/ns/locn#Geometry> .
+<https://data.vlaanderen.be/ns/netwerk#Linkreferentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie> .
+<https://data.vlaanderen.be/ns/netwerk#Puntreferentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Linkreferentie> .
+<https://data.vlaanderen.be/ns/netwerk#LineaireReferentie> a owl:Class; rdfs:subClassOf <https://data.vlaanderen.be/ns/netwerk#Linkreferentie> .
+<http://www.opengis.net/ont/sf#Point> a owl:Class; rdfs:subClassOf <http://www.w3.org/ns/locn#Geometry> .
+
 <https://data.test-vlaanderen.be/doc/applicatieprofiel/wegennetwerk/ontwerpstandaard/2026-01-01#> rdfs:member <https://data.test-vlaanderen.be/doc/applicatieprofiel/wegennetwerk/ontwerpstandaard/2026-01-01#StraatnaamShape>,
     <https://data.test-vlaanderen.be/doc/applicatieprofiel/wegennetwerk/ontwerpstandaard/2026-01-01#TransporteigenschapShape>,
     <https://data.test-vlaanderen.be/doc/applicatieprofiel/wegennetwerk/ontwerpstandaard/2026-01-01#EenheidShape>,
