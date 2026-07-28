@@ -54,6 +54,21 @@
     "contributors-column": "Weg",
     "site": "site-skeleton/wegennetwerk",
     "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-wegenregister/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-wegennetwerk/"
+  },
+  {
+    "name": "wegenregister2",
+    "type": "impl",
+    "eap": "OSLO-Weg2-IM.eap",
+    "diagram": "OSLO-Wegenregister",
+    "template": "wegennetwerk-ap.j2",
+    "title": "Wegenregister",
+    "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+    "publication-date": "2026-09-01",
+    "contributors-file": "stakeholders2.csv",
+    "contributors-column": "Weg",
+    "site": "site-skeleton/wegenregister2",
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-wegenregister/"
   }
 ]
