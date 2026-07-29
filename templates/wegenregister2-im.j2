@@ -1,5 +1,9 @@
 {% extends "impl.j2" %}
-
 {% block summary %}
-<p></p>
+<p>Dit implementatiemodel documenteert hoe gegevens uit het Wegenregister van Digitaal Vlaanderen worden beschreven.</p>
+<p>Het model conformeert aan het AP Wegennetwerk dat zich baseert op Transportnetwerken van INSPIRE, meer bepaald op de onderdelen Netwerk, Transportnetwerk en Weg. </p>
+<p>Het implementatiemodel laat uit dat AP weg wat voor het wegenregister niet noodzakelijk is. Het voegt ook een aantal zaken toe: de klasse GelijkgrondseKruising, het voertuigtype waarop de Transporteigenschap betrekking heeft, de opmetingsmethode van de Geometrie. </p>
+<p>Ook zijn de root-klassen aangeduid en is aan die klassen metadata toegevoegd met het oog op versionering. Aangeduid werd tevens welke data niet moet worden ingesloten maar waarnaar moet worden gerefereerd. </p>
+<p>De codelijsten zijn illustratief aan het diagram toegevoegd en gelinkt in de specificatie. </p>
+{% endblock %}
 {% endblock %}
