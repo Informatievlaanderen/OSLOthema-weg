@@ -61,7 +61,7 @@
     "type": "impl",
     "eap": "OSLO-Weg2-IM.eap",
     "diagram": "OSLO-Wegenregister",
-    "template": "wegennetwerk-ap.j2",
+    "template": "wegenregister2-im.j2",
     "title": "Wegenregister",
     "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2026-09-01",
