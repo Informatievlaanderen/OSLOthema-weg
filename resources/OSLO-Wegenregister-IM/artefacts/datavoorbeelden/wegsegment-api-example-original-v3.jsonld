@@ -1,0 +1,152 @@
+{
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/wegsegment/51613",
+    "naamruimte": "https://data.vlaanderen.be/id/wegsegment",
+    "objectId": "51613",
+    "versieId": "2026-09-27T13:46:14+02:00"
+  },
+  "wegsegmentGeometrie": {
+    "geometrie": [
+      {
+        "gml": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/3812\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>743235.05130684958 660250.92288753856 743246.15336978855 660250.34005033504 743261.51832611125 660250.54264300503 743279.17363676103 660255.70139220916</gml:posList></gml:LineString>"
+      },
+      {
+        "gml": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>243234.89299999920 160239.38300000131 243245.99499999729 160238.79899999869 243261.35999999940 160239.00000000000 243279.01600000259 160244.15700000149</gml:posList></gml:LineString>"
+      }
+    ],
+    "type": "LineString"
+  },
+  "geometrieMethode": "ingemeten",
+  "beginknoop": {
+    "objectId": "287335",
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/287335"
+  },
+  "eindknoop": {
+    "objectId": "287336",
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/287336"
+  },
+  "straatnaam": [
+    {
+      "kant": "links",
+      "vanPositie": 0,
+      "totPositie": 10,
+      "straatnaam": {
+        "objectId": "71671",
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/71671",
+        "geografischeNaam": {
+          "spelling": "Smidsestraat",
+          "taal": "nl"
+        }
+      }
+    },
+    {
+      "kant": "rechts",
+      "vanPositie": 0,
+      "totPositie": 10,
+      "straatnaam": {
+        "objectId": "65412",
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/65412",
+        "geografischeNaam": {
+          "spelling": "Veerstraat",
+          "taal": "nl"
+        }
+      }
+    },
+    {
+      "kant": "beide",
+      "vanPositie": 10,
+      "totPositie": 44.88,
+      "straatnaam": {
+        "objectId": "71671",
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/71671",
+        "geografischeNaam": {
+          "spelling": "Smidsestraat",
+          "taal": "nl"
+        }
+      }
+    }
+  ],
+  "wegsegmentstatus": "gerealiseerd",
+  "morfologie": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "morfologie": "parallelweg"
+    }
+  ],
+  "toegang": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "toegang": "openbare weg"
+    }
+  ],
+  "wegbeheerder": [
+    {
+      "kant": "beide",
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "wegbeheerder": {
+        "code": "AGIV",
+        "label": "agentschap Digitaal Vlaanderen"
+      }
+    }
+  ],
+  "wegcategorie": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "wegcategorie": "regionale weg"
+    }
+  ],
+  "wegverharding": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "wegverharding": "verhard"
+    }
+  ],
+  "verkeerstypeAuto": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "richting": "heen"
+    }
+  ],
+  "verkeerstypeFiets": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "richting": "beide"
+    }
+  ],
+  "verkeerstypeVoetganger": [
+    {
+      "vanPositie": 0,
+      "totPositie": 44.88,
+      "richting": "geen"
+    }
+  ],
+  "europeseWegen": [
+    {
+      "europeesWegnummer": "E40"
+    }
+  ],
+  "nationaleWegen": [
+    {
+      "nationaalWegnummer": "N180"
+    }
+  ],
+  "gelijkgrondseKruisingen": [
+    {
+      "objectId": "2344",
+      "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/gelijkgrondsekruisingen/2344"
+    }
+  ],
+  "ongelijkgrondseKruisingen": [
+    {
+      "objectId": "3524",
+      "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/ongelijkgrondsekruisingen/3524"
+    }
+  ]
+}

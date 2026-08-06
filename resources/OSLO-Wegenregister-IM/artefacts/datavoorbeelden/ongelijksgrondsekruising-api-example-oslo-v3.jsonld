@@ -1,0 +1,51 @@
+{
+  "@id": "https://data.vlaanderen.be/id/ongelijkgrondsekruising/643556",
+  "@type": "Ongelijkgrondsekruising",
+  "identificator": {
+    "@type": "Identificator",
+    "gestructueerdeIdentificator": {
+        "@type": "GestructureerdeIdentificator", 
+        "naamruimte": "https://data.vlaanderen.be/id/ongelijkgrondsekruising",
+        "lokaleIdentificator": "643556",
+        "versieIdentificator": "2026-09-27T13:46:14+02:00"
+    }
+  },
+  "type": {
+    "@id": "https://data.vlaanderen.be/id/concept/OngelijkgrondseKruisingtype/brug",
+    "@type": "Concept",
+    "code": "brug",
+    "voorkeursnaam": { "@value": "Brug", "@language": "nl" }
+  },
+  "kruisingVan": [
+    {
+      "@id": "https://data.vlaanderen.be/id/wegsegment/51613",
+      "@type": "Wegsegment",
+      "type": {
+        "@id": "https://data.vlaanderen.be/id/concept/Kruisingstype/boven",
+        "@type": "Concept",
+        "code": "boven",
+        "voorkeursnaam": { "@value": "Boven", "@language": "nl" }
+      },
+      "identificator": {
+        "@type": "Identificator",
+        "identificator": "51613"
+      },
+      "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegsegmenten/51613"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/id/wegsegment/89134",
+      "@type": "Wegsegment",
+      "type": {
+        "@id": "https://data.vlaanderen.be/id/concept/Kruisingstype/onder",
+        "@type": "Concept",
+        "code": "onder",
+        "voorkeursnaam": { "@value": "Onder", "@language": "nl" }
+      },
+      "identificator": {
+        "@type": "Identificator",
+        "identificator": "89134"
+      },
+      "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegsegmenten/89134"
+    }
+  ]
+}

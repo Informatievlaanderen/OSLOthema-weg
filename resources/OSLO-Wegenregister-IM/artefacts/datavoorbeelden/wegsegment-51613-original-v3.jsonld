@@ -1,0 +1,59 @@
+{
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/wegsegment/51613",
+    "naamruimte": "https://data.vlaanderen.be/id/wegsegment",
+    "objectId": "51613",
+    "versieId": "2026-09-27T13:46:14+02:00"
+  },
+  "wegsegmentGeometrie": {
+    "geometrie": [
+      {
+        "gml": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/3812\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>735250.57 691821.11 735242.73 691770.76</gml:posList></gml:LineString>"
+      },
+      {
+        "gml": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>235254.09300000221 191810.58900000149 235246.25100000200 191760.23400000110</gml:posList></gml:LineString>"
+      }
+    ],
+    "type": "LineString"
+  },
+  "geometrieMethode": "ingemeten",
+  "beginknoop": {
+    "objectId": "103225",
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/103225"
+  },
+  "eindknoop": {
+    "objectId": "103226",
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/103226"
+  },
+  "straatnaam": [
+    {
+      "kant": "beide",
+      "vanPositie": 0.0,
+      "totPositie": 50.96,
+      "straatnaam": null
+    }
+  ],
+  "wegsegmentstatus": "gerealiseerd",
+  "morfologie": [],
+  "toegang": [],
+  "wegbeheerder": [
+    {
+      "kant": "beide",
+      "vanPositie": 0.0,
+      "totPositie": 50.96,
+      "wegbeheerder": {
+        "code": "72042",
+        "label": "Gemeente Oudsbergen"
+      }
+    }
+  ],
+  "wegcategorie": [],
+  "wegverharding": [],
+  "verkeerstypeAuto": [],
+  "verkeerstypeFiets": [],
+  "verkeerstypeVoetganger": [],
+  "europeseWegen": [],
+  "nationaleWegen": [],
+  "gelijkgrondseKruisingen": [],
+  "ongelijkgrondseKruisingen": []
+}

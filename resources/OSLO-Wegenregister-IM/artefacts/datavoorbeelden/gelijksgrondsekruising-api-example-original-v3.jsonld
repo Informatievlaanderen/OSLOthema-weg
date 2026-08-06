@@ -1,0 +1,18 @@
+{
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/gelijkgrondsekruising/643556",
+    "naamruimte": "https://data.vlaanderen.be/id/gelijkgrondsekruising",
+    "objectId": "643556",
+    "versieId": "2026-09-27T13:46:14+02:00"
+  },
+  "kruisendeWegsegmenten": [
+    {
+      "objectId": "51613",
+      "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegsegmenten/51613"
+    },
+    {
+      "objectId": "89134",
+      "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegsegmenten/89134"
+    }
+  ]
+}

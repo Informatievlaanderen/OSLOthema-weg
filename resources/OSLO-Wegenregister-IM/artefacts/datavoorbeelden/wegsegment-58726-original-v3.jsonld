@@ -1,0 +1,66 @@
+{
+  "identificator": {
+    "id": "https://data.vlaanderen.be/id/wegsegment/58726",
+    "naamruimte": "https://data.vlaanderen.be/id/wegsegment",
+    "objectId": "58726",
+    "versieId": "2025-03-04T12:23:40Z"
+  },
+  "wegsegmentGeometrie": {
+    "geometrie": [
+      {
+        "gml": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/3812\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>716571.04 689391.21 716572.79 689386.21 716573.37 689384.58 716589.65 689338.27 716611.52 689281.52 716627.84 689240.17 716645.84 689192.06</gml:posList></gml:LineString>"
+      },
+      {
+        "gml": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>216574.14100000259 189382.89099999890 216575.89100000259 189377.89100000259 216576.46900000420 189376.26600000259 216592.75000000751 189329.95400000361 216614.61000000691 189273.20400000361 216630.92200000581 189231.84400000420 216648.92199999839 189183.73499999940</gml:posList></gml:LineString>"
+      }
+    ],
+    "type": "LineString"
+  },
+  "geometrieMethode": "ingemeten",
+  "beginknoop": {
+    "objectId": "117451",
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/117451"
+  },
+  "eindknoop": {
+    "objectId": "631778",
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/631778"
+  },
+  "straatnaam": [
+    {
+      "kant": "beide",
+      "vanPositie": 0.0,
+      "totPositie": 212.75,
+      "straatnaam": {
+        "objectId": "117349",
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/117349",
+        "geografischeNaam": {
+          "spelling": "Kasteeldreef",
+          "taal": "nl"
+        }
+      }
+    }
+  ],
+  "wegsegmentstatus": "gerealiseerd",
+  "morfologie": [],
+  "toegang": [],
+  "wegbeheerder": [
+    {
+      "kant": "beide",
+      "vanPositie": 0.0,
+      "totPositie": 212.75,
+      "wegbeheerder": {
+        "code": "71070",
+        "label": "Gemeente Heusden-Zolder"
+      }
+    }
+  ],
+  "wegcategorie": [],
+  "wegverharding": [],
+  "verkeerstypeAuto": [],
+  "verkeerstypeFiets": [],
+  "verkeerstypeVoetganger": [],
+  "europeseWegen": [],
+  "nationaleWegen": [],
+  "gelijkgrondseKruisingen": [],
+  "ongelijkgrondseKruisingen": []
+}

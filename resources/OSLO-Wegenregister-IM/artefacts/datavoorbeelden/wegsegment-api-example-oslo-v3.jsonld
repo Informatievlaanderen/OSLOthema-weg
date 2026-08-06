@@ -1,0 +1,374 @@
+{
+  "@id": "https://data.vlaanderen.be/id/wegsegment/51613",
+  "@type": "Wegsegment",
+  "identificator": {
+    "@type": "Identificator",
+    "gestructueerdeIdentificator": {
+        "@type": "GestructureerdeIdentificator", 
+        "naamruimte": "https://data.vlaanderen.be/id/wegsegment",
+        "lokaleIdentificator": "51613",
+        "versieIdentificator": "2026-09-27T13:46:14+02:00"
+    }
+  },
+  "geometriemiddenlijn": {
+    "@type": "Curve",
+    "gml": [
+        { "@value": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/3812\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>743235.05130684958 660250.92288753856 743246.15336978855 660250.34005033504 743261.51832611125 660250.54264300503 743279.17363676103 660255.70139220916</gml:posList></gml:LineString>" },
+        { "@value": "<gml:LineString srsName=\"http://www.opengis.net/def/crs/EPSG/0/31370\" xmlns:gml=\"http://www.opengis.net/gml/3.2\"><gml:posList>243234.89299999920 160239.38300000131 243245.99499999729 160238.79899999869 243261.35999999940 160239.00000000000 243279.01600000259 160244.15700000149</gml:posList></gml:LineString>" }
+    ],
+    "opmeting": { 
+        "@id": "http://data.vlaanderen.be/id/concept/opmeting/ingemeten",
+        "voorkeursnaam": { "@value": "ingemeten", "@language": "nl" }
+    }
+  },
+  "beginknoop": {
+    "@id": "https://data.vlaanderen.be/id/wegknoop/287335",
+    "@type": "Wegknoop",
+    "identificator": {
+        "@type": "Identificator",
+        "identificator": "287335" 
+    },
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/287335"
+  },
+  "eindknoop": {
+    "@id": "https://data.vlaanderen.be/id/wegknoop/287336",
+    "@type": "Wegknoop",
+    "identificator": {
+        "@type": "Identificator",
+        "identificator": "287336"
+    },
+    "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/wegknopen/287336"
+  },
+  "referentie": [
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 10.0,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Straatnaam",
+        "straatnaam": { "@value": "Veerstraat", "@language": "nl" },
+        "toepassingsRichting": {
+            "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/links",
+            "@type": "Concept",
+            "code": "links",
+            "voorkeursnaam": { "@value": "Links", "@language": "nl" }
+        },
+        "identificator": {
+          "@type": "Identificator",
+          "identificator": "65412"
+        },
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/65412"
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 10.0,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Straatnaam",
+        "straatnaam": { "@value": "Smidsestraat", "@language": "nl" },
+        "toepassingsRichting": {
+            "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/rechts",
+            "@type": "Concept",
+            "code": "rechts",
+            "voorkeursnaam": { "@value": "Rechts", "@language": "nl" }
+        },
+        "identificator": {
+          "@type": "Identificator",
+          "identificator": "71671"
+        },
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/71671"
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 10.0,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Straatnaam",
+        "straatnaam": { "@value": "Smidsestraat", "@language": "nl" },
+        "toepassingsRichting": {
+            "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/beide",
+            "@type": "Concept",
+            "code": "beide",
+            "voorkeursnaam": { "@value": "Beide", "@language": "nl" }
+        },
+        "identificator": {
+          "@type": "Identificator",
+          "identificator": "71671"
+        },
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/straatnamen/71671"
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 212.75,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Status",
+        "huidigeStatus": {
+          "@id": "http://data.vlaanderen.be/id/concept/Statustype/gerealiseerd",
+          "@type": "Concept",
+          "code": "gerealiseerd",
+          "voorkeursnaam": { "@value": "Gerealiseerd", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Morfologie",
+        "morfologie": {
+          "@id": "https://data.vlaanderen.be/id/concept/Morfologietype/parallelweg",
+          "@type": "Concept",
+          "code": "parallelweg",
+          "voorkeursnaam": { "@value": "Parallelweg", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Toegangsbeperking",
+        "beperking": {
+          "@id": "https://data.vlaanderen.be/id/concept/Toegangsbeperkingtype/openbareWeg",
+          "@type": "Concept",
+          "code": "openbareWeg",
+          "voorkeursnaam": { "@value": "Openbare weg", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "toepassingsRichting": {
+        "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/beide",
+        "@type": "Concept",
+        "code": "beide",
+        "voorkeursnaam": { "@value": "Beide", "@language": "nl" }
+      },
+      "eigenschap": {
+        "@type": "Beheerder",
+        "autoriteit": {
+          "@type": "Organisatie",
+          "voorkeursnaam": { "@value": "Agentschap Digitaal Vlaanderen", "@language": "nl" },
+          "identificator": {
+            "@type": "Identificator",
+            "identificator": "AGIV"
+          }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Wegcategorie",
+        "categorie": {
+          "@id": "https://data.vlaanderen.be/id/concept/Wegcategorie/regionaleWeg",
+          "@type": "Concept",
+          "code": "regionaleWeg",
+          "voorkeursnaam": { "@value": "Regionale weg", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "Wegverharding",
+        "wegverharding": {
+          "@id": "https://data.vlaanderen.be/id/concept/WegverhardingType/verhard",
+          "@type": "Concept",
+          "code": "verhard",
+          "voorkeursnaam": { "@value": "Verhard", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "RichtingVerkeer",
+        "voertuigType": {
+          "@id": "https://data.vlaanderen.be/id/concept/Voertuigtype/auto",
+          "@type": "Concept",
+          "code": "auto",
+          "voorkeursnaam": { "@value": "Auto", "@language": "nl" }
+        },
+        "richting": {
+          "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/heen",
+          "@type": "Concept",
+          "code": "heen",
+          "voorkeursnaam": { "@value": "Heen", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "RichtingVerkeer",
+        "voertuigType": {
+          "@id": "https://data.vlaanderen.be/id/concept/Voertuigtype/fiets",
+          "@type": "Concept",
+          "code": "fiets",
+          "voorkeursnaam": { "@value": "Fiets", "@language": "nl" }
+        },
+        "richting": {
+          "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/beide",
+          "@type": "Concept",
+          "code": "beide",
+          "voorkeursnaam": { "@value": "Beide", "@language": "nl" }
+        }
+      }
+    },
+    {
+      "@type": "LineaireReferentie",
+      "vanPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 0.0,
+        "eenheid": "qudt:M"
+      },
+      "totPositie": {
+        "@type": "KwantitatieveWaarde",
+        "waarde": 44.88,
+        "eenheid": "qudt:M"
+      },
+      "eigenschap": {
+        "@type": "RichtingVerkeer",
+        "voertuigType": {
+          "@id": "https://data.vlaanderen.be/id/concept/Voertuigtype/voetganger",
+          "@type": "Concept",
+          "code": "voetganger",
+          "voorkeursnaam": { "@value": "Voetganger", "@language": "nl" }
+        },
+        "richting": {
+          "@id": "https://data.vlaanderen.be/id/concept/Linkrichtingtype/geen",
+          "@type": "Concept",
+          "code": "geen",
+          "voorkeursnaam": { "@value": "Geen", "@language": "nl" }
+        }
+      }
+    }
+  ],
+  "inLinkSet": [
+    {
+        "@type": "EuropeseWeg",
+        "europeesWegnummer": "E40"
+    },
+    {
+        "@type": "Weg",
+        "nationaleCode": "N180"
+    }
+  ],
+  "kruist": [
+    {
+        "@id": "https://data.vlaanderen.be/id/gelijkgrondsekruising/2344",
+        "@type": "GelijksgrondseKruising",
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/gelijkgrondsekruisingen/2344"
+    },
+    {
+        "@id": "https://data.vlaanderen.be/id/ongelijkgrondsekruising/3524",
+        "@type": "OngelijksgrondseKruising",
+        "detail": "https://api.basisregisters.staging-vlaanderen.be/v3/ongelijkgrondsekruisingen/3524"
+    }
+  ]
+}
