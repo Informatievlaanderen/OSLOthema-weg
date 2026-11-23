@@ -57,7 +57,7 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-wegennetwerk/"
   },
   {
-    "name": "wegenregister IM",
+    "name": "wegenregisterIM",
     "type": "impl",
     "eap": "OSLO-Weg2-IM.eap",
     "diagram": "OSLO-Wegenregister",
@@ -72,7 +72,7 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-wegenregister/"
   },
   {
-    "name": "wegenregister VOC",
+    "name": "wegenregisterVOC",
     "type": "voc",
     "eap": "OSLO-Weg2-IM.eap",
     "diagram": "OSLO-Wegenregister",
